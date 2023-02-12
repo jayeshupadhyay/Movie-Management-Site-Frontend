@@ -1,0 +1,28 @@
+.box{
+    margin: 5px;
+    max-width: 1286px;
+}
+.card{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 4%;
+}
+.image-box
+{
+    padding: 3%;
+    max-width:50%;
+}
+.card-body{
+    width: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+.card-title{
+    font-size: 100px;
+    text-align: center;
+}
+.card-text{
+    font-size: x-large;
+}

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="actors.component.css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="card" *ngFor="let dataItem of ActorList">
+                        <div class="image-box">
+                            <img class="card-img-top" src="../../assets/images/profile.png" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">{{dataItem.ActorName}}</h5>
+                          <p class="card-text">DOB : {{dataItem.ActorDOB}}</p>
+                          <p class="card-text">Number of Movies : {{dataItem.ActorMovies}}</p>
+                          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+            </div>
+        
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,10 @@
+.nav-item{
+    width: 1296px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-outline-primary{
+    width: 125px;
+    font-size: 20px;
+}
